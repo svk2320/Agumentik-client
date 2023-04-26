@@ -7,8 +7,6 @@ import {
 import { useEffect } from "react";
 
 import Home from "./pages/home-page/Home";
-// import Login from "./pages/authentication-page/Login";
-import Signup from "./pages/authentication-page/signup-and-login-page";
 
 const App = () => {
   const action = useNavigationType();
@@ -49,8 +47,6 @@ const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      {/* <Route path="/login" element={<Login />} /> */}
-      <Route path="/signup" element={<Signup />} />
     </Routes>
   );
 };
